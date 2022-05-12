@@ -6,7 +6,7 @@ Home Page
 
 import React, { useState } from "react";
 import FirstSection from "../FirstSection";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer";
 import InfoSection from "../InfoSection";
 import { homeObjFour, homeObjOne, homeObjThree, homeObjTow } from "../InfoSection/Data";
 import { Navbar } from "../Navbar";

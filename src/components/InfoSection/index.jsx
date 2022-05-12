@@ -39,13 +39,15 @@ const InfoSection = ({
                 <Heading lightBg={lightBg}>{heading}</Heading>
                 <SubTitle lightBg={lightBg}>{description}</SubTitle>
                 <BtnWrap>
-                  <Button to="home" primary={primary} dark={dark} >{buttonLabel}</Button>
+                  <Button to="home" primary={primary} dark={dark}>
+                    {buttonLabel}
+                  </Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img  src={img} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

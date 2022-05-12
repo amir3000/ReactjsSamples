@@ -40,7 +40,7 @@ export const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavBarContainar>
           <NavLogo to="/" onClick={toggleHome}>
-            MegaJS
+            Amir Studio
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
